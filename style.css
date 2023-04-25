@@ -1,3 +1,44 @@
-body {
-    background: blue;
+html {
+    scroll-behavior: smooth;
 }
+
+body {
+    background-color:#fafafa;
+}
+
+.profile-picture {
+    margin-top:10%;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    margin-top: 50%;
+    font-family: Inconsolata, monospace;
+}
+
+.sub-title {
+   font-family: Inconsolata, monospace;
+   font-size: 20px;
+}
+
+.about {
+    margin-top: 10%;
+    text-align: center;
+    font-family: Inconsolata, monospace;
+}
+
+.footer {
+    text-align: center;
+    font-family: Inconsolata, monospace;
+    background-color: #4b4b4b;
+}
+
+.footer h1{
+    color: #EBE9E9;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+
