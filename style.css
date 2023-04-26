@@ -45,4 +45,13 @@ body {
 a i {
     color: #fafafa;
     font-size: 2em;
+    margin-bottom: 10px;
+}
+
+a i:hover {
+    color: purple;
+}
+
+.about .profile-picture {
+    width: 60%;
 }
