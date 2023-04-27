@@ -4,6 +4,7 @@ html {
 
 body {
     background-color:#fafafa;
+    font-family: Inconsolata, monospace;
 }
 
 .profile-picture {
@@ -15,24 +16,20 @@ body {
 
 .title {
     margin-top: 50%;
-    font-family: Inconsolata, monospace;
 }
 
 .sub-title {
-   font-family: Inconsolata, monospace;
    font-size: 20px;
 }
 
 .about {
     margin-top: 10%;
     text-align: center;
-    font-family: Inconsolata, monospace;
 }
 
 .footer {
     margin-top: 10%;
     text-align: center;
-    font-family: Inconsolata, monospace;
     background-color: #4b4b4b;
 }
 
@@ -55,3 +52,22 @@ a i:hover {
 .about .profile-picture {
     width: 60%;
 }
+
+.project-picture {
+    margin-top:10%;
+    width: 100%;
+    height: auto;
+}
+
+.project {
+    text-align: center;
+}
+
+.container-fluid.project {
+    margin-top: 10%;
+}
+.project .col-md-3 {
+    margin-top: 20px;
+}
+  
+
