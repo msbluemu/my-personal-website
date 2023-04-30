@@ -14,6 +14,7 @@
     <!--Custom CSS-->
     <link rel="stylesheet" href="style.css">
 
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -32,6 +33,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#photos">Photos</a>
             </li>
           </ul>
         </div>
@@ -74,11 +78,11 @@
         </div>
         <div class="col-md-3 mx-3">
           <p class="text">A password generator that can generate two 15 characters long random passwords</p>
-          <img src="public/password.jpeg" alt ="picture of password generator" class="project-picture d-block mx-auto"">
+          <img src="public/password.jpg" alt ="picture of password generator" class="project-picture d-block mx-auto"">
         </div>
         <div class="col-md-3 mx-3">
           <p class="text">A unit convertor that converts length, volume and mass between metric and imperial units</p>
-          <img src="public/unit.jpeg" alt ="picture of unit convertor" class="project-picture d-block mx-auto"">
+          <img src="public/unit.jpg" alt ="picture of unit convertor" class="project-picture d-block mx-auto"">
         </div>
           <div class="col-md-3 mx-3">
             <p class="text">A restaurant ordering app that can add/remove items and has a payment modal</p>
@@ -86,8 +90,40 @@
           </div>
       </div>
    </div>
-    
+  
 
+   <div class="container photo" id="photos"></div>
+   <div class="row">
+    <div class="row">
+      <h1 class="project">My Photo Gallery</h1>
+     </div>
+    <div class="column photo">
+      <img src="public/lavender.jpg" alt="Lavender field in Tasmania,Australia" onclick="myFunction(this);">
+    </div>
+    <div class="column photo">
+      <img src="public/bay.jpeg" alt="Honey Moon Bay in Tasmania,Australia" onclick="myFunction(this);">
+    </div>
+    <div class="column photo">
+      <img src="public/temple.jpg" alt="Nan Tian Temple in Wollongong,Australia" onclick="myFunction(this);">
+    </div>
+    <div class="column photo">
+      <img src="public/farm.jpg" alt="Dairy Farmers Hill in Canberra, Australia" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  <!-- The expanding image container -->
+  <div class="container expanded">
+
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+  
      <div class="container-fluid footer" id="footer">
       <div class="row">
         <div class="col-md-3"></div>
@@ -99,8 +135,11 @@
           <div class="col-md-3"></div>
       </div>
      </div>
+     
 
+   
     <!--Optional JavaScript-->
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
